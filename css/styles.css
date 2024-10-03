@@ -29,3 +29,44 @@ h2{
 p{
     font-size: 2.6rem;
 }
+
+.Pati{
+    background-color: rgb(19, 129, 255) ;
+    text-align: center;
+}
+
+.Sistemes{
+    background-color: rgb(8, 128, 0) ;
+    text-align: center;
+}
+
+.Serveis{
+    background-color: #290087 ;
+    text-align: center;
+}
+
+.Seguretat{
+    background-color: #84818E ;
+    text-align: center;
+}
+
+.Empresa{
+    background-color: #4ABD8C ;
+    text-align: center;
+}
+
+.Aplicacions{
+    background-color: #8DEE00 ;
+    text-align: center;
+}
+
+.CASA{
+    background-color: rgb(19, 129, 255) ;
+    text-align: center;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    padding: 0,8rem;
+}
