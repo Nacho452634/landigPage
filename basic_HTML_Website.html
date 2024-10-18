@@ -9,33 +9,41 @@
     <link rel="icon" href="img/flying_rocket_icon_182907.ico" type="image/x-icon">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles_basic_HTML_Website.css">
+<link rel="stylesheet" href="css/styles_basic_HTML_Website.css">
 
 <body>
-    <header>
-        <h1>Basic HTML Website</h1>
-    <nav>
+    <header class="container">
+    <div class="top">
+    <div class="logo">
+        <div class="img"><img src="img/flying_rocket_icon_182907.ico" alt=""></div>
+        <div>Nacho Rodriguez</div>
+    </div>
+
+        <nav>
         <a href="index.html">Home</a>
         <a href="horari.html">Horari</a>
         <a href="CV.html">Currículum</a>
         <a href="basic_HTML_Website.html">Basic HTML Website</a>
         </nav>
-        <div>[logo]</div>
-        <div>Nacho Rodriguez</div>
+    </div>
         <div class="hero">
             <h1>Frontend Developer</h1>
-            <p>Lorem ipsum dolor sit amet.</p>
+            <p class="text-center">Lorem ipsum dolor sit amet.</p>
         </div>
+
     </header>
 
-    <main>
-        <section>
+    <main class="container">
+        <section class="projects">
             <h2>Projects</h2>
             <ul> <li>HTML</li>
                 <li>Calculator</li>
                 <li>Quizz App</li>
             </ul>
         </section>
-    <section>
+    
+        <section class="work">
         <h2>Work Experience</h2>
         <div> <h3>Roadmap</h3>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -47,7 +55,7 @@
         </div>
     </section>
 
-    <section>
+    <section class="education">
         <h2>Education</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, cumque.</p>
         <p>Coures i took</p>
@@ -60,21 +68,24 @@
         </ul>
     </section>
     </main>
-        <section>
-            <h2>Reviews from my teachers</h2>
-            <div>
+    <h2>Reviews from my teachers</h2>
+    <section class="container">
+        <section class="reviews">
+            <div class="reviews-card">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, accusamus!</p>
-                <p>Lorem, ipsum dolor.</p>
+                <span>Lorem, ipsum dolor.</span>
             </div>
-            <div>
+            <div class="reviews-card">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, accusamus!</p>
-                <p>Lorem, ipsum dolor.</p>
+                <span>Lorem, ipsum dolor.</span>
             </div>
-            <div>
+            <div class="reviews-card">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, accusamus!</p>
-                <p>Lorem, ipsum dolor.</p>
+                <span>Lorem, ipsum dolor.</span>
             </div>
         </section>
-        <footer>
+    </section>
+        <footer class="footer">
             <p>Lorem ipsum dolor sit.</p>
         </footer>
+</body>
