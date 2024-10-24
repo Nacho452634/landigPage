@@ -17,3 +17,13 @@ body{
 .img{
     border-radius: 10px;
 }
+
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: hwb(213 15% 0%);
+}
