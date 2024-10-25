@@ -1,11 +1,13 @@
 body{
-    background-color: rgb(190, 190, 190);
+    background-color:rgb(241, 205, 105);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
 
 .tab-container{
     display: flex;
     justify-content: space-around;
-    background-color: rgb(255, 187, 0);
+    background-color: rgb(48, 43, 42);
     padding: 20px;
 }
 
@@ -13,6 +15,8 @@ body{
     color: inherit;
     text-decoration: none;
     transition: color 0,3s ease;
+    cursor: pointer;
+    color: rgb(217, 217, 217);
 }
 
 .tab-1:hover{
@@ -28,4 +32,19 @@ i{
 p{
     font-size: 20px;
     text-align: center;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    margin: 1rem;
+}
+
+a:hover{
+    color: hwb(213 15% 0%);
+}
+
+.barra{
+    margin: 1rem;
 }
