@@ -8,15 +8,12 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: rgb(48, 43, 42);
-    padding: 20px;
 }
 
 .tab-1{
-    color: inherit;
-    text-decoration: none;
-    transition: color 0,3s ease;
     cursor: pointer;
     color: rgb(217, 217, 217);
+    margin-top: 1.5rem;
 }
 
 .tab-1:hover{
