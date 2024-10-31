@@ -4,7 +4,7 @@ body{
     background-color: rgb(196, 255, 145);
 }
 
-.container{
+.barra{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,17 +24,16 @@ a:hover{
     color: hwb(213 15% 0%);
 }
 
-.galeria{
+.container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    height: 70vh;
-    margin-top: 1.5rem;
-    justify-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
 }
 
-img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover
+.container img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
