@@ -1,15 +1,15 @@
 
 body{
     font-family: Lato;
-    background-color: rgb(155, 255, 125);
+    background-color: rgb(196, 255, 145);
 }
 
-.barra{
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 17px;
-    background-color: rgb(255, 247, 100);
-    
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(249, 255, 87);
+    padding: 5px;
 }
 
 a{
@@ -29,12 +29,12 @@ a:hover{
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     height: 70vh;
-    
+    margin-top: 1.5rem;
+    justify-items: center;
 }
 
 img{
     width: 200px;
     height: 200px;
-    object-fit: cover;
-    margin-top: 1.5rem;
+    object-fit: cover
 }
