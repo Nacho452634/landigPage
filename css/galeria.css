@@ -1,13 +1,15 @@
 
 body{
     font-family: Lato;
-    background-color: aquamarine;
+    background-color: rgb(155, 255, 125);
 }
 
 .barra{
     text-align: center;
     margin-top: 1rem;
     font-size: 17px;
+    background-color: rgb(255, 247, 100);
+    
 }
 
 a{
@@ -27,10 +29,12 @@ a:hover{
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     height: 70vh;
+    
 }
 
-.img{
+img{
     width: 200px;
     height: 200px;
     object-fit: cover;
+    margin-top: 1.5rem;
 }
